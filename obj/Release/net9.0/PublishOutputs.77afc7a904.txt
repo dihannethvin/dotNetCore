@@ -1,0 +1,10 @@
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\DotnetCoreWebApp.exe
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\appsettings.Development.json
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\appsettings.json
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\DotnetCoreWebApp.dll
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\DotnetCoreWebApp.deps.json
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\DotnetCoreWebApp.runtimeconfig.json
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\DotnetCoreWebApp.pdb
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator.WIN-SNC5965FTRC\Desktop\DotNET\dontNetCore\DotnetCoreWebApp\publish\Microsoft.EntityFrameworkCore.InMemory.dll

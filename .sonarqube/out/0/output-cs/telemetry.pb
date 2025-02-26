@@ -1,0 +1,1 @@
+AR+C:\inetpub\wwwroot1\DotnetCoreWebApp.csproj¢net9.0òCSharp13

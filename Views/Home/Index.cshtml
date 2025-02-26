@@ -1,0 +1,61 @@
+﻿@model List<User>
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    // Unused variable defined here
+    var unusedVariable = "This is not used anywhere"; 
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+</div>
+
+<h2>User Registration</h2>
+
+<!-- Registration Form -->
+<form asp-controller="Home" asp-action="Register" method="post">
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" id="Password" name="Password" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Register</button>
+</form>
+
+<!-- Display Message if Registration is Successful -->
+@if (ViewData["Message"] != null)
+{
+    <div class="alert alert-success mt-3">
+        @ViewData["Message"]
+    </div>
+}
+
+<!-- Display Registered Users -->
+<h3 class="mt-4">Registered Users</h3>
+@if (Model.Any())
+{
+    <ul class="list-group">
+        @foreach (var user in Model)
+        {
+            <li class="list-group-item">
+                @user.Name - @user.Email
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No users registered yet.</p>
+}
